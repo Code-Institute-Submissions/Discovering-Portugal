@@ -114,3 +114,26 @@
     font-weight: bold;
     line-height: 50px;
 }
+
+#map-btn1,
+#map-btn2,
+#map-btn3,
+#map-btn4 {
+    background-color: rgba(210, 215, 211, 0.7);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#map-btn2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#map-btn3 {
+    margin-right: 5%;
+}
