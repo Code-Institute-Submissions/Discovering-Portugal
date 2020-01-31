@@ -86,15 +86,19 @@
     padding-top: 10px;
 }
 
+#places {
+    height: 700px;
+}
+
 #map-container {
-    padding-left: 25%;
+    padding-left: 20%;
     padding-right: 5%;
     padding-top: 25px;
 }
 
 #map {
     background-color: yellow;
-    height: 150%;
+    height: 70%;
     width: 100%;
 }
 
@@ -110,6 +114,13 @@
 #legend p {
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
+    color: black;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#choice {
+    font-family: "Rajdhani", sans-serif;
     color: black;
     font-weight: bold;
     line-height: 50px;
@@ -136,4 +147,33 @@
 
 #map-btn3 {
     margin-right: 5%;
+}
+
+#place1,
+#place2,
+#place3,
+#place4,
+#place5,
+#place6 {
+    padding-left: 5%;
+}
+
+#place_name {
+    font-family: "Rajdhani", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: solid 1px black;
+    display: inline-block;
+}
+
+#info,
+#picture {
+    padding-top: 15px;
+}
+
+#info p {
+    font-family: "Rajdhani", sans-serif;
+    color: black;
+    font-size: 20px;
 }
