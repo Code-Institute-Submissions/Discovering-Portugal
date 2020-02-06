@@ -10,7 +10,7 @@
     </head>
     <body>
         <!--  HEADER  -->
-        <div id="header">
+        <header id="header">
             <div id="title-small" class="row no-gutters">
                 <div class="col text-center">
                     <h1 id="heading-smaller">Discovering Portugal</h1>
@@ -23,93 +23,102 @@
                     <button id="btn3"><a href="south.html">Discover the South</a></button>
                 </div>
             </div>
-        </div>
-        <!--  MAP  -->
-        <div class="row no-gutters" id="places">
-            <div id="map-container" class="col-md-8">
-                <div id="map"></div>
-                <div id="interests">
-                    <h3 id="choice">What would you like to visit?</h2>
-                    <button id="map-btn1">Nature</button>
-                    <button id="map-btn2">Cities</button>
-                    <button id="map-btn3">Beaches</button>
-                    <button id="map-btn4">Show All</button>
+        </header>
+        <!-- CONTENT  -->
+        <section>
+            <!--  MAP  -->
+            <div class="row no-gutters" id="places">
+                <div id="map-container" class="col-md-8">
+                    <div id="map"></div>
+                    <div id="interests">
+                        <h3 id="choice">What would you like to visit?</h2>
+                        <button id="map-btn1">Nature</button>
+                        <button id="map-btn2">Cities</button>
+                        <button id="map-btn3">Beaches</button>
+                        <button id="map-btn4">Show All</button>
+                    </div>
+                </div>
+                <div id="legend" class="col-md-4">
+                    <p>A - Gerês<br>
+                    B - Serra da Estrela<br>
+                    C - Porto<br>
+                    D - Aveiro<br>
+                    E - Costa Nova<br>
+                    F - Praia do Moledo</p>
                 </div>
             </div>
-            <div id="legend" class="col-md-4">
-                <p>A - Gerês<br>
-                B - Serra da Estrela<br>
-                C - Porto<br>
-                D - Aveiro<br>
-                E - Costa Nova<br>
-                F - Praia do Moledo</p>
+            <!--  PLACES  -->
+            <div class="row no-gutters" id="place1">
+                <div class="col-12">
+                    <h2 id="place_name">Gerês</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    <img src="assets/images/geres.jpeg" alt="Photo of Geres" id="placephoto">
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-        </div>
-        <div class="row no-gutters" id="place1">
-            <div class="col-12">
-                <h2 id="place_name">Gerês</h2>
+            <div class="row no-gutters" id="place2">
+                <div class="col-12">
+                    <h2 id="place_name">Serra da Estrela</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                 <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
+            <div class="row no-gutters" id="place3">
+                <div class="col-12">
+                    <h2 id="place_name">Porto</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    <img src="assets/images/porto.jpeg" alt="Photo of Porto" id="placephoto">
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
+            <div class="row no-gutters" id="place4">
+                <div class="col-12">
+                    <h2 id="place_name">Aveiro</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    <img src="assets/images/aveiro.jpeg" alt="Photo of Aveiro" id="placephoto">
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-        </div>
-        <div class="row no-gutters" id="place2">
-            <div class="col-12">
-                <h2 id="place_name">Serra da Estrela</h2>
+            <div class="row no-gutters" id="place5">
+                <div class="col-12">
+                    <h2 id="place_name">Costa Nova</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
+            <div class="row no-gutters" id="place6">
+                <div class="col-12">
+                    <h2 id="place_name">Praia do Moledo</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place3">
-            <div class="col-12">
-                <h2 id="place_name">Porto</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place4">
-            <div class="col-12">
-                <h2 id="place_name">Aveiro</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place5">
-            <div class="col-12">
-                <h2 id="place_name">Costa Nova</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place6">
-            <div class="col-12">
-                <h2 id="place_name">Praia do Moledo</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
+        </section>
+        <!--  FOOTER  -->
+        <footer>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>

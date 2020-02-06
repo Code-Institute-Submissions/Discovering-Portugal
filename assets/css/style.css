@@ -170,10 +170,21 @@
 #info,
 #picture {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #info p {
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-size: 20px;
+}
+
+#picture {
+    padding-right: 15px;
+}
+
+#placephoto {
+    background-position: center;
+    background-size: contain;
+    width: 100%;
 }

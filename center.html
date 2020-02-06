@@ -10,7 +10,7 @@
     </head>
     <body>
         <!--  HEADER  -->
-        <div id="header">
+        <header id="header">
             <div id="title-small" class="row no-gutters">
                 <div class="col text-center">
                     <h1 id="heading-smaller">Discovering Portugal</h1>
@@ -23,92 +23,101 @@
                     <button id="btn3"><a href="south.html">Discover the South</a></button>
                 </div>
             </div>
-        </div>
-        <!--  MAP  -->
-        <div class="row no-gutters" id="places">
-            <div id="map-container" class="col-md-8">
-                <div id="map"></div>
-                <div id="interests">
-                    <button id="map-btn1">Nature</button>
-                    <button id="map-btn2">City</button>
-                    <button id="map-btn3">Beach</button>
-                    <button id="map-btn4">Show All</button>
+        </header>
+        <section>
+            <!--  MAP  -->
+            <div class="row no-gutters" id="places">
+                <div id="map-container" class="col-md-8">
+                    <div id="map"></div>
+                    <div id="interests">
+                        <button id="map-btn1">Nature</button>
+                        <button id="map-btn2">City</button>
+                        <button id="map-btn3">Beach</button>
+                        <button id="map-btn4">Show All</button>
+                    </div>
+                </div>
+                <div id="legend" class="col-md-4">
+                    <p>A - Serra de Aire e Candeeiros<br>
+                    B - Parque Natural da Arrabida<br>
+                    C - Lisbon and Sintra<br>
+                    D - Tomar<br>
+                    E - Nazaré<br>
+                    F - Sesimbra</p>
                 </div>
             </div>
-            <div id="legend" class="col-md-4">
-                <p>A - Serra de Aire e Candeeiros<br>
-                B - Parque Natural da Arrabida<br>
-                C - Lisboa e Sintra<br>
-                D - Tomar<br>
-                E - Nazaré<br>
-                F - Sesimbra</p>
+            <!--  PLACES  -->
+            <div class="row no-gutters" id="place1">
+                <div class="col-12">
+                    <h2 id="place_name">Serra de Aire e Candeeiros</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                 <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-        </div>
-        <div class="row no-gutters" id="place1">
-            <div class="col-12">
-                <h2 id="place_name">Serra de Aire e Candeeiros</h2>
+            <div class="row no-gutters" id="place2">
+                <div class="col-12">
+                    <h2 id="place_name">Parque Natural da Arrabida</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
+            <div class="row no-gutters" id="place3">
+                <div class="col-12">
+                    <h2 id="place_name">Lisbon and Sintra</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    <img src="assets/images/lisboa.jpeg" alt="Photo of Lisbon" id="placephoto">
+                    <img src="assets/images/palacioDaPena.jpeg" alt="Photo of Palacio da Pena in Sintra" id="placephoto">
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
+            <div class="row no-gutters" id="place4">
+                <div class="col-12">
+                    <h2 id="place_name">Tomar</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-        </div>
-        <div class="row no-gutters" id="place2">
-            <div class="col-12">
-                <h2 id="place_name">Parque Natural da Arrabida</h2>
+            <div class="row no-gutters" id="place5">
+                <div class="col-12">
+                    <h2 id="place_name">Nazaré</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    <img src="assets/images/nazare.jpeg" alt="Photo of Nazare" id="placephoto">
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
+            <div class="row no-gutters" id="place6">
+                <div class="col-12">
+                    <h2 id="place_name">Sesimbra</h2>
+                </div>
+                <div class="col-md-8" id="picture">
+                    Image of the place
+                </div>
+                <div class="col-md-4" id="info">
+                    <p>Info about the place</p>
+                </div>
             </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place3">
-            <div class="col-12">
-                <h2 id="place_name">Lisboa e Sintra</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place4">
-            <div class="col-12">
-                <h2 id="place_name">Tomar</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place5">
-            <div class="col-12">
-                <h2 id="place_name">Nazaré</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
-        <div class="row no-gutters" id="place6">
-            <div class="col-12">
-                <h2 id="place_name">Sesimbra</h2>
-            </div>
-            <div class="col-md-8" id="info">
-                <p>Info about the place</p>
-            </div>
-            <div class="col-md-4" id="picture">
-                Image of the place
-            </div>
-        </div>
+        </section>
+        <!--  FOOTER  -->
+        <footer>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
