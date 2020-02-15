@@ -1,26 +1,14 @@
 // MAP - code written according to OpenLayers documentation
 
-/*
-var map = new ol.Map({
-        target: 'map',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-7.91, 40.66]),
-          zoom: 7
-        })
-      });
+var mymap = L.map('map').setView([40.66, -7.91], 7);
 
-*/
-
-var mymap = L.map('map').setView([51.505, -0.09], 13);
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
 
 //  MARKERS - code written with the help of https://medium.com/attentive-ai/working-with-openlayers-4-part-2-using-markers-or-points-on-the-map-f8e9b5cae098
 
-// var marker = L.marker([-8.08, 41.42], { title: "Gerês" }).addTo(map);
+ var marker = L.marker([41.42, -8.08], { title: "Gerês" }).addTo(map);
 
 /*
 var markerA = new ol.Feature({
