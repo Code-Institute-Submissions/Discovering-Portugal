@@ -1,5 +1,6 @@
 // MAP - code written according to OpenLayers documentation
 
+/*
 var map = new ol.Map({
         target: 'map',
         layers: [
@@ -13,8 +14,15 @@ var map = new ol.Map({
         })
       });
 
+*/
+
+var mymap = L.map('map').setView([51.505, -0.09], 13);
+
 //  MARKERS - code written with the help of https://medium.com/attentive-ai/working-with-openlayers-4-part-2-using-markers-or-points-on-the-map-f8e9b5cae098
 
+// var marker = L.marker([-8.08, 41.42], { title: "Gerês" }).addTo(map);
+
+/*
 var markerA = new ol.Feature({
     geometry: new ol.geom.Point(
         ol.proj.fromLonLat([-8.08,41.42])
@@ -59,3 +67,5 @@ var markerVectorLayer = new ol.layer.Vector({
     source: vectorSource,
 });
 map.addLayer(markerVectorLayer);
+
+*/
