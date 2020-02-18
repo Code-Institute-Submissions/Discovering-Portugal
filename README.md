@@ -7,26 +7,26 @@ This website is thought to work mainly as a sort of digital turism guide giving 
 This project is intended for turists and foreigns to discover more about Portugal and go visit it.
 
 ### User Stories
-- As a turist, I want to get all the information of what to visit in Portugal, so that I can make the most of my visit.
+- As a turist, I want to get all the information about some of the best places to visit in Portugal, so that I can make the most of my visit.
 
 ### Strategy Plane
-What is the goal/strategy for this website?
+My goal in this website is to showcase some of the best places Portugal has to offer, as well as some tips and sugestions.
 
 ### Scope Plane
-How will I achieve the previous? What information to put in?
+In order to make the site as simple and user friendly as possible I decided to divide Portugal in three main categories (the North, the Center and the South) where each of this categories will have its own webpage. In every one of those pages I put in a map of that area with the sugested places marked and under it you will find the name of the place with its photograph, a quote from a turistic website and some tips and sugestions for that place.
 
 ### Structure Plane
-How will my website be structured?
+In terms of structure I created a homepage with an enticing image to represent Portugal. In this page the only things present are the title/name of the website and three navigation buttons to get you to the other pages.
+The North, South and Center pages are all structured similarlly in order not to complicate overly much the website. Here you have a header with navigation links to the other pages, including the homepage, then a map section, after that a descriptive section about each place and finally a footer that again has navigation links (this way the user does not have to scroll back up to switch pages).
 
 ### Skeleton Plane
-wireframes will go here!
+- Homepage wireframe
+- North/Center/South page wireframe
 
 ### Surface Plane
 How does my website look like and why?
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -39,10 +39,9 @@ For some/all of your features, you may choose to reference the specific project 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [Leaflet API](https://leafletjs.com/)
 
 
 ## Testing
@@ -82,7 +81,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photo present in the homepage, as well as he photos of Aveiro, Gerês, Lisbon, Nazaré, Sintra and Porto were taken from [Unsplash](https://unsplash.com/).
+- The photos of Evora, Tavira, Serra da Estrela and Costa Nova were taken from [Pixabay](https://pixabay.com/pt/).
+- The photo of Praia da Marinha was taken from [Pexels](https://www.pexels.com/).
+- The photo of Tomar was taken from [Free images](https://www.freeimages.com/).
+- The remaining photos were taken by some friends who gave me their permission to use them in this website, for educational purposes.
 
 ### Acknowledgements
 
