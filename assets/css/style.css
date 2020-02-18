@@ -92,12 +92,12 @@
 
 #map-container {
     padding-left: 20%;
-    padding-right: 5%;
+    padding-right: 20%;
     padding-top: 25px;
 }
 
 #map {
-    height: 70%;
+    height: 75%;
     width: 100%;
 }
 
@@ -199,4 +199,8 @@
 #source a {
     text-decoration: none;
     color: grey;
+}
+
+.hidden {
+    display: none;
 }
