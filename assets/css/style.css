@@ -67,13 +67,20 @@
 /* Header */
 
 #header {
-    height: 15%;
-    background-color: rgba(170, 210, 223, 1)
+    height: 120px;
 }
 
 .navbar {
-    height: 100%;
-    padding: 0px 10px;
+    height: 120px;
+    width: 100%;
+    padding: 35px 10px;
+    top: 0;
+    background-color: rgba(170, 210, 223, 1);
+}
+
+.navbar-toggler {
+    border: transparent;
+    padding: 4px 0px;
 }
 
 .nav-container {
@@ -82,9 +89,16 @@
 
 .heading-smaller {
     font-family: "Gabriela", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.navbar-collapse {
+    width: 100%;
+    padding-right: 5%;
 }
 
 .navbar-nav {
@@ -94,9 +108,10 @@
 .nav-item {
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-weight: bold;
+    z-index: 10000000;
 }
 
 /* Body */
@@ -273,8 +288,15 @@
         font-size: 15px;
     }
     /* Header */
+    #header {
+        height: 80px;
+    }
+    .navbar {
+        height: 80px;
+        padding: 10px;
+    }
     .heading-smaller {
-    font-size: 15px;
+        font-size: 17px;
     }
     .navbar-collapse {
         display: flex;
@@ -286,7 +308,8 @@
     }
     .nav-item {
         background-color: rgba(170, 210, 223, 1);
-        padding-right: 10px;
+        padding-right: 15px 10px;
         text-align: right;
+        font-size: 20px;
     }
 }
