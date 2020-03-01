@@ -12,20 +12,25 @@
     </head>
     <body>
         <!--  HEADER  -->
-        <div id="header">
-            <div id="title-small" class="row no-gutters">
-                <div class="col text-center">
-                    <h1 id="heading-smaller">Discovering Portugal</h1>
-                </div>
+        <header id="header">
+            <div class="container-fluid nav-container colortransparency">
+                <nav class="navbar fixed-top navbar-dark navbar-expand-lg" role="navigation">
+                    <span class="navbar-brand heading-smaller">Discovering Portugal</span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav justify-content-end">
+                            <a class="nav-item nav-link" href="index.html">Homepage</a>
+                            <a class="nav-item nav-link" href="north.html">The North</a>
+                            <a class="nav-item nav-link active" href="#">The Center</a>
+                            <a class="nav-item nav-link" href="south.html">The South</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div id="navigate2" class="row no-gutters">
-                <div class="col text-center">
-                    <button id="btn1"><a href="index.html">Back to the Homepage</a></button>
-                    <button id="btn2"><a href="north.html">Discover the North</a></button>
-                    <button id="btn3"><a href="south.html">Discover the South</a></button>
-                </div>
-            </div>
-        </div>
+        </header>
+        <!-- CONTENT  -->
         <section>
             <!--  MAP  -->
             <div class="row no-gutters" id="places">
