@@ -238,6 +238,13 @@
 
 /*     MEDIA QUERIES     */
 
+@media (max-width: 991px){
+    /* Places */
+    #picture {
+        padding-right: 0px;
+    }
+}
+
 @media (min-width: 541px) and (max-width: 1024px){
     /* Index Page */
     #heading {
