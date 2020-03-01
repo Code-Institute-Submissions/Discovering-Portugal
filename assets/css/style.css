@@ -19,9 +19,9 @@
 #heading {
     font-family: "Gabriela", sans-serif;
     font-size: 50px;
-    font-weight: 200;
+    font-weight: 500;
     text-transform: uppercase;
-    padding-top: 150px;
+    padding-top: 60px;
 }
 
 #navigate {
@@ -33,7 +33,8 @@
 #bottom {
     display: table-cell;
     vertical-align: bottom;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+    width: 33%;
 }
 
 #btn1,
@@ -201,6 +202,44 @@
     color: grey;
 }
 
-.hidden {
+/*.hidden {
     display: none;
+}*/
+
+/*     MEDIA QUERIES     */
+
+@media (min-width: 541px) and (max-width: 1024px){
+    #heading {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 540px){
+    #heading {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    #bottom {
+        padding-bottom: 50px;
+    }
+    #btn1,
+    #btn2,
+    #btn3 {
+        padding: 5px;
+    }
+    #btn1 {
+        margin-left: 5%;
+    }
+    #btn3 {
+        margin-right: 5%;
+    }
+    #btn2 {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    #btn1 a,
+    #btn2 a,
+    #btn3 a {
+        font-size: 15px;
+    }
 }
