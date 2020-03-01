@@ -13,18 +13,23 @@
     <body>
         <!--  HEADER  -->
         <header id="header">
-            <div id="title-small" class="row no-gutters">
-                <div class="col text-center">
-                    <h1 id="heading-smaller">Discovering Portugal</h1>
+            <div class="container-fluid nav-container colortransparency">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <span class="navbar-brand heading-smaller">Discovering Portugal</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <div class="navbar-nav justify-content-end">
+                        <!-- The class active that will be styled to make the current page underlined was taken from the Love Running walkthrough project -->
+                        <a class="nav-item nav-link" href="index.html">Homepage</a>
+                        <a class="nav-item nav-link active" href="north.html">The North</a>
+                        <a class="nav-item nav-link" href="center.html">The Center</a>
+                        <a class="nav-item nav-link" href="south.html" target="_blank">The South</a>
+                    </div>
                 </div>
-            </div>
-            <div id="navigate2" class="row no-gutters">
-                <div class="col text-center">
-                    <button id="btn1"><a href="index.html">Back to the Homepage</a></button>
-                    <button id="btn2"><a href="center.html">Discover the Center</a></button>
-                    <button id="btn3"><a href="south.html">Discover the South</a></button>
-                </div>
-            </div>
+            </nav>
+        </div>
         </header>
         <!-- CONTENT  -->
         <section>
@@ -118,7 +123,8 @@
         <!--  FOOTER  -->
         <footer>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="assets/js/north.js"></script>
     </body>
 </html>
