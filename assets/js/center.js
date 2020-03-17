@@ -46,6 +46,7 @@ $(document).ready(function(){
         $("#place1").removeClass('hidden');
         $("#place2").removeClass('hidden');
         $("#place3").addClass('hidden');
+        $("#place7").addClass('hidden');  //place7 was put out of order on purpose, this way it is together with places 3 and 4 that have the same turism type as this one and is in the same order of appearance as the html code
         $("#place4").addClass('hidden');
         $("#place5").addClass('hidden');
         $("#place6").addClass('hidden');
@@ -61,6 +62,7 @@ $(document).ready(function(){
         $("#place1").addClass('hidden');
         $("#place2").addClass('hidden');
         $("#place3").removeClass('hidden');
+        $("#place7").removeClass('hidden');  //place7 was put out of order on purpose, this way it is together with places 3 and 4 that have the same turism type as this one and is in the same order of appearance as the html code
         $("#place4").removeClass('hidden');
         $("#place5").addClass('hidden');
         $("#place6").addClass('hidden');
@@ -76,6 +78,7 @@ $(document).ready(function(){
         $("#place1").addClass('hidden');
         $("#place2").addClass('hidden');
         $("#place3").addClass('hidden');
+        $("#place7").addClass('hidden'); //place7 was put out of order on purpose, this way it is together with places 3 and 4 that have the same turism type as this one and is in the same order of appearance as the html code
         $("#place4").addClass('hidden');
         $("#place5").removeClass('hidden');
         $("#place6").removeClass('hidden');
