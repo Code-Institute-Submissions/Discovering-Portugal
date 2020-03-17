@@ -1,6 +1,6 @@
 // MAP - code written according to Leaflet documentation 
 
-var mymap = L.map('map').setView([41.09, -7.8], 8);
+var mymap = L.map('map').setView([41.29, -7.8], 8);
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -8,21 +8,21 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 //  MARKERS - code written according to Leaflet documentation 
 
-var marker1 = L.marker([41.42, -8.08]).addTo(mymap)
-    .bindPopup('Gerês')
-    .openPopup();
+var marker1 = L.marker([41.8, -8.25]).addTo(mymap)
+    .bindPopup('GERÊS <br> ???')
+    .closePopup();
 
-var marker2 = L.marker([40.19, -7.36]).addTo(mymap)
-    .bindPopup('Serra da Estrela');
+var marker2 = L.marker([40.4, -7.55]).addTo(mymap)
+    .bindPopup('SERRA DA ESTRELA <br> ');
 
 var marker3 = L.marker([41.15, -8.61]).addTo(mymap)
-    .bindPopup('Porto');
+    .bindPopup('PORTO <br> ');
 
 var marker4 = L.marker([40.64, -8.65]).addTo(mymap)
-    .bindPopup('Aveiro');
+    .bindPopup('AVEIRO <br> ');
 
-var marker5 = L.marker([40.69, -8.59]).addTo(mymap)
-    .bindPopup('Costa Nova');
+var marker5 = L.marker([40.69, -8.73]).addTo(mymap)
+    .bindPopup('COSTA NOVA <br> ');
 
-var marker6 = L.marker([41.5, -8.80]).addTo(mymap)
-    .bindPopup('Praia do Moledo');
+var marker6 = L.marker([41.85, -8.87]).addTo(mymap)
+    .bindPopup('PRAIA DO MOLEDO <br> ');
