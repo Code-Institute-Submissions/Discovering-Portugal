@@ -118,17 +118,24 @@
 
 #places {
     height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #map-container {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 #map {
-    height: 75%;
     width: 100%;
+    height: 670px;
+}
+
+#description {
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 #interests {
@@ -186,6 +193,10 @@
 #place6 {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+#place {
+    padding-top: 30px;
 }
 
 #place_name {
