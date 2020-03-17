@@ -117,7 +117,6 @@
 /* Body */
 
 #places {
-    height: 700px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -159,15 +158,7 @@
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-size: 20px;
-    padding-bottom: 15px;
-}
-
-#map-btn1:focus,
-#map-btn2:focus,
-#map-btn3:focus,
-#map-btn4:focus {
-    outline:0 !important;
-    background-color: rgba(210, 215, 211, .3);
+    margin-bottom: 0;
 }
 
 #map-btn1,
@@ -182,6 +173,7 @@
     font-size: 20px;
     color: black;
     font-weight: bold;
+    margin-top: 5%;
 }
 
 #map-btn2 {
@@ -191,6 +183,14 @@
 
 #map-btn3 {
     margin-right: 5%;
+}
+
+#map-btn1:focus,
+#map-btn2:focus,
+#map-btn3:focus,
+#map-btn4:focus {
+    outline:0 !important;
+    background-color: rgba(210, 215, 211, .3);
 }
 
 #place1,
@@ -339,4 +339,8 @@
         text-align: right;
         font-size: 20px;
     }
+    /* Map */
+    #map {
+        height: 450px;
+    }   
 }
