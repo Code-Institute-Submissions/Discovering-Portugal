@@ -95,4 +95,4 @@ $(document).ready(function(){
         marker5.addTo(mymap);
         marker6.addTo(mymap);
     });
-})
+});
