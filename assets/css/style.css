@@ -162,6 +162,14 @@
     padding-bottom: 15px;
 }
 
+#map-btn1:focus,
+#map-btn2:focus,
+#map-btn3:focus,
+#map-btn4:focus {
+    outline:0 !important;
+    background-color: rgba(210, 215, 211, .3);
+}
+
 #map-btn1,
 #map-btn2,
 #map-btn3,
@@ -243,9 +251,9 @@
     color: grey;
 }
 
-/*.hidden {
+.hidden {
     display: none;
-}*/
+}
 
 /*     MEDIA QUERIES     */
 
