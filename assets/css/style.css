@@ -236,7 +236,8 @@
 
 #placephoto {
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -390,5 +391,12 @@
     #interests {
         order: 1;
         padding-top: 0;
+    }
+}
+
+@media (min-width: 991px){
+    #placephoto {
+        height: 100%;
+        width: 100%;
     }
 }
