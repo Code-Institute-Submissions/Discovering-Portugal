@@ -64,6 +64,62 @@
 
 /*     NORTH, CENTER AND SOUTH PAGES     */
 
+/* Images */
+
+#picturegeres {
+    padding-right: 15px;
+    background-image: url("../images/geres.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#pictureserraestrela {
+    padding-right: 15px;
+    background-image: url("../images/serraDaEstrela.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#pictureporto {
+    padding-right: 15px;
+    background-image: url("../images/porto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#pictureaveiro {
+    padding-right: 15px;
+    background-image: url("../images/aveiro.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturecostanova {
+    padding-right: 15px;
+    background-image: url("../images/costaNova.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturemoledo {
+    padding-right: 15px;
+    background-image: url("../images/praiaDoMoledo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 /* Header */
 
 #header {
@@ -213,6 +269,7 @@
 
 #place {
     padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 #place_name {
@@ -224,21 +281,8 @@
     display: inline-block;
 }
 
-#info,
-#picture {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#picture {
-    padding-right: 15px;
-}
-
-#placephoto {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+#info {
+    padding-left: 15px;
 }
 
 #quote {
@@ -392,11 +436,16 @@
         order: 1;
         padding-top: 0;
     }
-}
-
-@media (min-width: 991px){
-    #placephoto {
-        height: 100%;
+    #picturegeres,
+    #pictureserraestrela,
+    #pictureporto,
+    #pictureaveiro,
+    #picturecostanova,
+    #picturemoledo {
         width: 100%;
+        height: 400px;
+    }
+    #info {
+        padding-top: 15px;
     }
 }
