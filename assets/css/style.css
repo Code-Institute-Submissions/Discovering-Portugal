@@ -183,6 +183,60 @@
     width: 100%;
 }
 
+#picturecostavicentina {
+    padding-right: 15px;
+    background-image: url("../images/costaVicentina.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#pictureguadiana {
+    padding-right: 15px;
+    background-image: url("../images/valeGuadiana.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#pictureevora {
+    padding-right: 15px;
+    background-image: url("../images/evora.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturetavira {
+    padding-right: 15px;
+    background-image: url("../images/tavira.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturealmograve {
+    padding-right: 15px;
+    background-image: url("../images/praiaDeAlmograve.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturemarinha {
+    padding-right: 15px;
+    background-image: url("../images/praiaDaMarinha.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 /* Header */
 
 #header {
@@ -515,7 +569,13 @@
     #picturesintra,
     #picturetomar,
     #picturenazare,
-    #picturesesimbra {
+    #picturesesimbra,
+    #picturecostavicentina,
+    #pictureguadiana,
+    #pictureevora,
+    #picturetavira,
+    #picturealmograve,
+    #picturemarinha {
         width: 100%;
         height: 400px;
     }
