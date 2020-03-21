@@ -15,29 +15,29 @@ if (width < 541) {
 }
 //Here ends the code adapted from https://stackoverflow.com/questions/23910594/leaflet-responsive-design-creating-different-zoom-levels-for-different-screen
 
-//  MARKERS - code written according to Leaflet documentation 
+//  MAP MARKERS - code written according to Leaflet documentation 
 
 var marker1 = L.marker([39.49, -8.76]).addTo(mymap)
-    .bindPopup('SERRA DE AIRE E CANDEEIROS')
+    .bindPopup('<p style="text-align: center; font-size: 14px">SERRA DE AIRE E CANDEEIROS</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>')
     .closePopup();
 
 var marker2 = L.marker([38.49, -8.99]).addTo(mymap)
-    .bindPopup('PARQUE NATURAL DA ARRABIDA');
+    .bindPopup('<p style="text-align: center; font-size: 14px">PARQUE NATURAL DA ARRABIDA</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>');
 
 var marker3 = L.marker([38.71, -9.14]).addTo(mymap)
-    .bindPopup('LISBON');
+    .bindPopup('<p style="text-align: center; font-size: 14px">LISBON</p> <p style="text-align:center"><i class="fas fa-city" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-university" style="font-size: 16px"></i></p>');
 
 var marker4 = L.marker([38.8, -9.38]).addTo(mymap)
-    .bindPopup('SINTRA');
+    .bindPopup('<p style="text-align: center; font-size: 14px">SINTRA</p> <p style="text-align:center"><i class="fas fa-city" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-university" style="font-size: 16px"></i></p>');
 
 var marker5 = L.marker([39.6, -8.41]).addTo(mymap)
-    .bindPopup('TOMAR');
+    .bindPopup('<p style="text-align: center; font-size: 14px">TOMAR</p> <p style="text-align:center"><i class="fas fa-city" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-university" style="font-size: 16px"></i></p>');
 
 var marker6 = L.marker([39.6, -9.07]).addTo(mymap)
-    .bindPopup('NAZARÉ');
+    .bindPopup('<p style="text-align: center; font-size: 14px">NAZARÉ</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
     
 var marker7 = L.marker([38.44, -9.1]).addTo(mymap)
-    .bindPopup('SESIMBRA');
+    .bindPopup('<p style="text-align: center; font-size: 14px">SESIMBRA</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
 
 // BUTTONS
 

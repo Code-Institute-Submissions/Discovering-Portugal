@@ -120,6 +120,69 @@
     width: 100%;
 }
 
+#picturecandeeiros {
+    padding-right: 15px;
+    background-image: url("../images/serraDeAire.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturearrabida {
+    padding-right: 15px;
+    background-image: url("../images/arrabida.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturelisbon {
+    padding-right: 15px;
+    background-image: url("../images/lisboa.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturesintra {
+    padding-right: 15px;
+    background-image: url("../images/palacioDaPena.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturetomar {
+    padding-right: 15px;
+    background-image: url("../images/tomarConvento.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturenazare {
+    padding-right: 15px;
+    background-image: url("../images/nazare.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#picturesesimbra {
+    padding-right: 15px;
+    background-image: url("../images/sesimbra.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 /* Header */
 
 #header {
@@ -265,6 +328,10 @@
 #place7 {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+#place6 {
+    padding-bottom: 15px;
 }
 
 #place {
@@ -441,7 +508,14 @@
     #pictureporto,
     #pictureaveiro,
     #picturecostanova,
-    #picturemoledo {
+    #picturemoledo,
+    #picturecandeeiros,
+    #picturearrabida,
+    #picturelisbon,
+    #picturesintra,
+    #picturetomar,
+    #picturenazare,
+    #picturesesimbra {
         width: 100%;
         height: 400px;
     }
