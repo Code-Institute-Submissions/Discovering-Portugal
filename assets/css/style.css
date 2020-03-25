@@ -49,10 +49,6 @@
     -webkit-transform: rotate(45deg);
 }
 
-#titleabout {
-    text-align: center;
-}
-
 #headingabout {
     font-family: "Rajdhani", sans-serif;
     color: black;
@@ -60,26 +56,78 @@
     font-size: 30px;
     border-bottom: solid 1px black;
     display: inline-block;
-    padding: 30px 50px 5px
+    padding: 30px 50px 5px;
+    margin: auto;
+}
+
+.options {
+    border: solid 1px black;
+    margin-top: 25px;
+    margin-right: 0;
+}
+
+#btn1-index,
+#btn2-index,
+#btn3-index,
+#btn4-index {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#btn1-index:focus,
+#btn2-index:focus,
+#btn3-index:focus,
+#btn4-index:focus {
+    outline:0 !important;
+}
+
+.underline {
+    border-bottom: solid 1px black;
+}
+
+.data {
+    border: solid 1px black;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#basics,
+#regions,
+#history,
+#accessibility {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    padding-top: 10px; 
+}
+
+#navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#whereto {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: auto;
 }
 
 #navigate {
-    height: 80%;
-    display: table;
     width: 100%;
-}
-
-#bottom {
-    display: table-cell;
-    vertical-align: bottom;
-    padding-bottom: 100px;
-    width: 33%;
+    padding-top: 15px;
 }
 
 #btn1,
 #btn2,
 #btn3 {
-    background-color: rgba(210, 215, 211, 0.7);
+    background-color: rgba(210, 215, 211, 0.9);
     border: none;
     padding: 10px;
     border-radius: 10px;

@@ -22,21 +22,65 @@
             </div>
         </div>
         <div id="about-portugal">
-            <div id="titleabout">
+            <div class="row no-gutters titleabout">
                 <h2 id="headingabout">About Portugal</h2>
             </div>
+            <div class="row no-gutters">
+                <div class="options col-sm-3 offset-sm-1">
+                    <button id="btn1-index"><span class="underline" id="btn1-span">Information</span></button><br>
+                    <button id="btn2-index"><span id="btn2-span">Regions</span></button><br>
+                    <button id="btn3-index"><span id="btn3-span">History</span></button><br>
+                    <button id="btn4-index"><span id="btn4-span">Accessibility</span></button>
+                </div>
+                <div class="data col-sm-7">
+                    <div class="col-12" id="basics">
+                        <p>Population: 10,29 million</p>
+                        <p>Area: 92,212km2</p>
+                        <p>State Capital: Lisbon</p>
+                        <p>Oficial Language: Portuguese</p>
+                        <p>Currency: Euro</p>
+                    </div>
+                    <div class="col-12 hidden" id="regions">
+                        <p>Portugal can be divided into the following regions:</p>
+                        <ul>
+                            <li>The North of Portugal</li>
+                            <li>The Center of Portugal</li>
+                            <li>The South of Portugal</li>
+                            <li>Azores with 9 islands</li>
+                            <li>Madeira with 2 islands plus the deserted islands (3 islands) and the wild islands (2 islands)</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 hidden" id="history">
+                        <p>bla bla bla</p>
+                    </div>
+                    <div class="col-12 hidden" id="accessibility">
+                        <p>In terms of accessibility Portugal is a prety easy coutry to get by.</p>
+                        <p>In the continental part of the country there are three airports, one in each region: There is the Francisco Sá Carneiro airport in Porto, the Humberto Delgado Airport in Lisbon and the Airport of Faro. This makes it easy and convinient to visit all the regions. However, keep in mind that Portugal is a small country which makes it possible to visit it all in just one trip. If you decide to do so but don't want to keep having to go to the airport bother, renting a car or simply catching the bus or train are also very good and easy solutions.</p>
+                        <p>In Madeira it is also pretty simple to move around. Madeira has two airports, one in the main island that is Funchal and a smaller one in the other island, named Porto Santo.</p>
+                        <p>In Azores the case is the same as in Madeira. Azores has 9 different islands and all of them have an airport, but the main one is located in São Miguel (Ponta Delgadas' Airport). From there you can fly to another island or, if you prefer, you can choose to take a boat to the closest island instead</p>
+                    </div>
+                </div>
+            </div>
             <!--  NAVIGATION BUTTONS  -->
-            <div id="navigate" class="row no-gutters">
-                <div class="col-md-4 text-center" id="bottom">
-                    <button id="btn1"><a href="north.html">The North</a></button>
+            <div id="navigation" class="row no-gutters">
+                <div id="whereto" class="row no-gutters">
+                    <p>Choose from the options bellow what region of Portugal (without the islands) you would like to receive more info on</p>
                 </div>
-                <div class="col-md-4 text-center" id="bottom">
-                    <button id="btn2"><a href="center.html">The Center</a></button>
-                </div>
-                <div class="col-md-4 text-center" id="bottom">
-                    <button id="btn3"><a href="south.html">The South</a></button>
+                <div id="navigate" class="row no-gutters">
+                    <div class="col-md-4 text-center">
+                        <button id="btn1"><a href="north.html">The North</a></button>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <button id="btn2"><a href="center.html">The Center</a></button>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <button id="btn3"><a href="south.html">The South</a></button>
+                    </div>
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
     </body>
 </html>
