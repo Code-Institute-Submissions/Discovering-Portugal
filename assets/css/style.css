@@ -61,28 +61,29 @@
 }
 
 .options {
-    border: solid 1px black;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(210, 215, 211, 0.5);
     margin-top: 25px;
     margin-right: 0;
+    text-align: right;
 }
 
 #btn1-index,
 #btn2-index,
-#btn3-index,
-#btn4-index {
+#btn3-index {
     border: none;
     padding: 10px;
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
     color: black;
-    font-weight: bold;
+    background-color: transparent;
 }
 
 #btn1-index:focus,
 #btn2-index:focus,
-#btn3-index:focus,
-#btn4-index:focus {
+#btn3-index:focus {
     outline:0 !important;
 }
 
@@ -91,14 +92,15 @@
 }
 
 .data {
-    border: solid 1px black;
     margin-left: 15px;
     margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(210, 215, 211, 0.5);
 }
 
 #basics,
 #regions,
-#history,
 #accessibility {
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
@@ -127,7 +129,7 @@
 #btn1,
 #btn2,
 #btn3 {
-    background-color: rgba(210, 215, 211, 0.9);
+    background-color: rgba(210, 215, 211, 0.5);
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -434,7 +436,7 @@
 #map-btn2,
 #map-btn3,
 #map-btn4 {
-    background-color: rgba(210, 215, 211, 0.7);
+    background-color: rgba(210, 215, 211, 0.9);
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -459,7 +461,7 @@
 #map-btn3:focus,
 #map-btn4:focus {
     outline:0 !important;
-    background-color: rgba(210, 215, 211, .3);
+    background-color: rgba(210, 215, 211, .5);
 }
 
 #place1,
