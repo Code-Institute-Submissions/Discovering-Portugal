@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gabriela|Rajdhani&display=swap');
 
-
 /*     HOME PAGE     */
 
 #front-image {
@@ -65,7 +64,7 @@
     border-radius: 10px;
     background-color: rgba(210, 215, 211, 0.5);
     margin-top: 25px;
-    margin-right: 0;
+    margin-right: 15px;
     text-align: right;
 }
 
@@ -92,7 +91,7 @@
 }
 
 .data {
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 25px;
     border: none;
     border-radius: 10px;
@@ -135,6 +134,10 @@
     border: none;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none!important;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    color: black!important;
 }
 
 #btn2 {
@@ -142,23 +145,12 @@
     margin-left: 10%;
 }
 
-#btn1 a,
-#btn2 a,
-#btn3 a {
-    text-decoration: none;
-    font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-}
-
-
 /*     NORTH, CENTER AND SOUTH PAGES     */
 
 /* Images */
 
 #picturegeres {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/geres.jpg");
     background-position: center;
     background-size: cover;
@@ -167,7 +159,7 @@
 }
 
 #pictureserraestrela {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/serraDaEstrela.jpg");
     background-position: center;
     background-size: cover;
@@ -176,7 +168,7 @@
 }
 
 #pictureporto {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/porto.jpg");
     background-position: center;
     background-size: cover;
@@ -185,7 +177,7 @@
 }
 
 #pictureaveiro {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/aveiro.jpg");
     background-position: center;
     background-size: cover;
@@ -194,7 +186,7 @@
 }
 
 #picturecostanova {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/costaNova.jpg");
     background-position: center;
     background-size: cover;
@@ -203,7 +195,7 @@
 }
 
 #picturemoledo {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/praiaDoMoledo.jpg");
     background-position: center;
     background-size: cover;
@@ -212,7 +204,7 @@
 }
 
 #picturecandeeiros {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/serraDeAire.jpg");
     background-position: center;
     background-size: cover;
@@ -221,7 +213,7 @@
 }
 
 #picturearrabida {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/arrabida.jpg");
     background-position: center;
     background-size: cover;
@@ -230,7 +222,7 @@
 }
 
 #picturelisbon {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/lisboa.jpg");
     background-position: center;
     background-size: cover;
@@ -239,7 +231,7 @@
 }
 
 #picturesintra {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/palacioDaPena.jpg");
     background-position: center;
     background-size: cover;
@@ -257,7 +249,7 @@
 }
 
 #picturenazare {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/nazare.jpg");
     background-position: center;
     background-size: cover;
@@ -266,7 +258,7 @@
 }
 
 #picturesesimbra {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/sesimbra.jpg");
     background-position: center;
     background-size: cover;
@@ -275,7 +267,7 @@
 }
 
 #picturecostavicentina {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/costaVicentina.jpg");
     background-position: center;
     background-size: cover;
@@ -284,7 +276,7 @@
 }
 
 #pictureguadiana {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/valeGuadiana.jpg");
     background-position: center;
     background-size: cover;
@@ -293,7 +285,7 @@
 }
 
 #pictureevora {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/evora.jpg");
     background-position: center;
     background-size: cover;
@@ -311,7 +303,7 @@
 }
 
 #picturealmograve {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/praiaDeAlmograve.jpg");
     background-position: center;
     background-size: cover;
@@ -320,7 +312,7 @@
 }
 
 #picturemarinha {
-    padding-right: 15px;
+    padding-right: 0px;
     background-image: url("../images/praiaDaMarinha.jpg");
     background-position: center;
     background-size: cover;
@@ -388,7 +380,7 @@
 #map-container {
     padding-top: 30px;
     padding-bottom: 15px;
-    padding-right: 15px;
+    padding-right: 0px;
     width: 100%;
 }
 
@@ -401,6 +393,7 @@
 #description {
     padding-top: 30px;
     padding-bottom: 15px;
+    padding-left: 15px;
     display: flex;
     flex-flow: column;
 }
@@ -481,12 +474,12 @@
     padding-bottom: 15px;
 }
 
-#place {
+.place {
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
-#place_name {
+.place_name {
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-weight: bold;
@@ -495,18 +488,18 @@
     display: inline-block;
 }
 
-#info {
-    padding-left: 15px;
+.info {
+    padding-left: 15px!important;
 }
 
-#quote {
+.quote {
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-size: 18px;
     font-style: italic;
 }
 
-#source {
+.source {
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-size: 15px;
@@ -514,7 +507,7 @@
     margin-bottom: 0;
 }
 
-#tips {
+.tips {
     font-family: "Rajdhani", sans-serif;
     color: black;
     font-size: 18px;
@@ -675,7 +668,7 @@
         height: 400px;
         padding-right: 0px;
     }
-    #info {
+    .info {
         padding-top: 15px;
         padding-left: 0px;
     }
