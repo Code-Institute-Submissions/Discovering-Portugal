@@ -34,7 +34,7 @@
 #down {
     display: table-cell;
     vertical-align: bottom;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     width: 100%;
 }
 
@@ -502,7 +502,7 @@
 #quote {
     font-family: "Rajdhani", sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -517,7 +517,7 @@
 #tips {
     font-family: "Rajdhani", sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0;
 }
 
