@@ -23,6 +23,7 @@ The regional pages – this pages possess a fixed to the top header that allows 
 ### Skeleton Plane
 - [Homepage wireframe](wireframes/homepage.jpg)
 - [North/Center/South page wireframe](wireframes/otherpages.jpg)
+I only did wireframes for the desktop version of the website since there is basically no difference between the desktop version and the tablet/mobile version apart from the fact that on tablets and mobile devices there are no side-by-side elements, they all appear one bellow the other.
 
 ### Surface Plane
 Visually my website can be divided in the same way it was divided in the Structure Plane.
