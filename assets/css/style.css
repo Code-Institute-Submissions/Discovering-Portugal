@@ -105,25 +105,27 @@
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
     color: black;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 10px; 
 }
 
 #navigation {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: 0 auto;
 }
 
 #whereto {
     font-family: "Rajdhani", sans-serif;
     font-size: 20px;
     color: black;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #navigate {
     width: 100%;
     padding-top: 15px;
+    justify-content: center;
 }
 
 #btn1,
