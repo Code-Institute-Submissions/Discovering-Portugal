@@ -545,6 +545,7 @@
 /*     MEDIA QUERIES     */
 
 @media (max-width: 991px){ /* Big screens */
+
     /* Places */
     #picture {
         padding-right: 0px;
@@ -552,10 +553,12 @@
 }
 
 @media (min-width: 541px) and (max-width: 1024px){ /* Tablets and smaller computers */
+
     /* Index Page */
     #heading {
         padding-top: 60px;
     }
+
     /* Header */
     .navbar-collapse {
         display: flex;
@@ -573,6 +576,7 @@
 }
 
 @media (max-width: 540px){ /* Phones */
+    
     /* Index Page */
     #heading {
         font-size: 35px;
@@ -601,6 +605,7 @@
     #btn3 a {
         font-size: 15px;
     }
+    
     /* Header */
     #header {
         height: 80px;
@@ -626,6 +631,7 @@
         text-align: right;
         font-size: 20px;
     }
+    
     /* Map and Interests */
     #map {
         height: 350px;
@@ -682,4 +688,18 @@
     #map {
     height: 670px;
     }   
+}
+
+@media (max-width: 575px) { /* Breakpoint for options and data board on the Index page*/
+    .options,
+    .data {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+    #whereto {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
 }
