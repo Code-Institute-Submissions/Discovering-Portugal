@@ -35,16 +35,25 @@ Finally, to ensure the cross device functionality the only difference between th
 ## Features
  
 ### Existing Features
-- This website uses JavaScript to hide or show determined sections of the website, according to the user choices.
-- It also uses, on the homepage, an arrow that automatically scrolls the user to the next section of the page. 
+- The North, Center and South pages of this website use a navbar made using Bootstrap.
+- The entire website uses JavaScript to hide or show determined sections of the website, according to the user choices.
+- The regional pages also use the Leaflet API together with OpenStreetMap to render a map of each region with markers on the sugested destinations.
+- On the homepage, there is an arrow that automatically scrolls the user to the next section of the page. 
 
 ### Features Left to Implement
 For now, there are no plans to implement any future features.
 
 ## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
 - [Bootstap](https://getbootstrap.com/)
     - The project uses **Bootstrap** to simplify html, css and JavaScript coding.
+- [FontAwesome](https://fontawesome.com/)
+    - The project uses **FontAwesome** to put pictograms on the map markers and on the description of the places
+- [GoogleFonts](https://fonts.google.com/)
+    - The project uses **GoogleFonts** as the font supplier for the website
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 - [Leaflet API](https://leafletjs.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=15/10.3714/-85.1239)
