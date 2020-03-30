@@ -627,6 +627,7 @@
     /* Map and Interests */
     #map {
         height: 350px;
+        min-height: 350px;
     }
     #description {
         padding-top: 15px;
