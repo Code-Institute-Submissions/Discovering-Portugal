@@ -21,8 +21,8 @@ The homepage – this page possesses an image of a famous landmark in Portugal a
 The regional pages – this pages possess a fixed to the top header that allows users to switch page anytime they want without having to scroll up or down. After that there is a map of the area side by side with a small quote from a known touristic website and the option to choose the type of tourism preferred by the user (nature tourism, city tourism or beach directed tourism). Bellow this comes the section with information about the selected places, which contain a picture of the place side by side with a quote about the place and some tips about it (for example where to stay, what to see and if there is any typical food from that place).
 
 ### Skeleton Plane
-- [Homepage wireframe] (wireframes/homepage.jpg)
-- [North/Center/South page wireframe] (wireframes/otherpages.jpg)
+- [Homepage wireframe](wireframes/homepage.jpg)
+- [North/Center/South page wireframe](wireframes/otherpages.jpg)
 
 ### Surface Plane
 Visually my website can be divided in the same way it was divided in the Structure Plane.
