@@ -18,11 +18,11 @@ if (width < 541) {
 //  MAP MARKERS - code written according to Leaflet documentation 
 
 var marker1 = L.marker([39.49, -8.76]).addTo(mymap)
-    .bindPopup('<p style="text-align: center; font-size: 14px">SERRA DE AIRE E CANDEEIROS</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>')
+    .bindPopup('<p style="text-align: center; font-size: 14px">SERRA DE AIRE E CANDEEIROS NATURAL PARK</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>')
     .closePopup();
 
 var marker2 = L.marker([38.49, -8.99]).addTo(mymap)
-    .bindPopup('<p style="text-align: center; font-size: 14px">PARQUE NATURAL DA ARRABIDA</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>');
+    .bindPopup('<p style="text-align: center; font-size: 14px">ARRÁBIDA NATURAL PARK</p> <p style="text-align:center"><i class="fas fa-tree" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i> <i class="fas fa-hiking" style="font-size: 16px"></i></p>');
 
 var marker3 = L.marker([38.71, -9.14]).addTo(mymap)
     .bindPopup('<p style="text-align: center; font-size: 14px">LISBON</p> <p style="text-align:center"><i class="fas fa-city" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-university" style="font-size: 16px"></i></p>');
@@ -34,10 +34,10 @@ var marker5 = L.marker([39.6, -8.41]).addTo(mymap)
     .bindPopup('<p style="text-align: center; font-size: 14px">TOMAR</p> <p style="text-align:center"><i class="fas fa-city" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-university" style="font-size: 16px"></i></p>');
 
 var marker6 = L.marker([39.6, -9.07]).addTo(mymap)
-    .bindPopup('<p style="text-align: center; font-size: 14px">NAZARÉ</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
+    .bindPopup('<p style="text-align: center; font-size: 14px">NAZARÉ BEACH</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
     
 var marker7 = L.marker([38.44, -9.1]).addTo(mymap)
-    .bindPopup('<p style="text-align: center; font-size: 14px">SESIMBRA</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
+    .bindPopup('<p style="text-align: center; font-size: 14px">SESIMBRA BEACH</p> <p style="text-align:center"><i class="fas fa-umbrella-beach" style="font-size: 16px"></i> <i class="fas fa-bed" style="font-size: 16px"></i> <i class="fas fa-campground" style="font-size: 16px"></i> <i class="fas fa-utensils" style="font-size: 16px"></i> <i class="fas fa-swimmer" style="font-size: 16px"></i></p>');
 
 // BUTTONS
 
