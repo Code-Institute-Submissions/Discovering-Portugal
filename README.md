@@ -51,34 +51,34 @@ For now, there are no plans to implement any future features.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I used W3C Validation Service for both HTML and CSS validation.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+###Client testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The user stories goal for this website was achieved: it is simple and clear to navigate, yet efficient in giving all the pertinent information about the places I suggest any future tourist to visit.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+###Manual testing
+All the links to different pages outside my website (such as the font of the quotes) will open in a new tab. 
+This site was tested in different browsers (Safari, Chrome, Firefox, Opera and Microsoft Edge) and in different devices (Mac Pro, Macbook Pro, Windows PC, Iphone 7 Plus, Xiaomi Redmi Note 8 Pro, Huawei, Ipad Mini and Samsung) to ensure it works in all platforms. During the testing phase I realized that using the browser from Xiaomi the collapsed navbar does not show the 4 navigational options, only the last two (The Center and The South). I also noticed that in every mobile device that is not a product of Apple, opening the website directly from the Facebook Messenger causes an error where the map is not rendered at all. Unfortunately, I could not solve any of these problems since the first one only occurs on Xiaomi browsers and I can’t understand what causes it and the second one seems to be caused by Facebook itself that does not recognize the OpenStreetMap URL.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project is hosted by GitHub Pages and the deployed site should update immediately in case there is any change to the master branch.
+The deployment was made following these steps:
+1 – Go to the GitHub page for the repository that you wish to deploy
+2 – Click on the repository settings on the right-hand side
+3 – Scroll down and use the select source drop-down menu to select master as your GitHub Pages publishing source
+4 – Save and wait for the page to be published (this can take a few moments)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+In case you wish to clone this repository, follow these steps:
+1 – Go to the GitHub page for the repository you wish to clone
+2 – Click the green button that says “Clone or Download”
+3 – Copy the URL given in the Clone with HTTPS
+4 – Open your repository and its terminal
+5 – Type git clone and then paste the URL you got on step 3
+6 – Press Enter and you are done
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
 
