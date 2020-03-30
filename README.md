@@ -53,11 +53,11 @@ For now, there are no plans to implement any future features.
 
 I used W3C Validation Service for both HTML and CSS validation.
 
-###Client testing
+### Client testing
 
 The user stories goal for this website was achieved: it is simple and clear to navigate, yet efficient in giving all the pertinent information about the places I suggest any future tourist to visit.
 
-###Manual testing
+### Manual testing
 All the links to different pages outside my website (such as the font of the quotes) will open in a new tab. 
 This site was tested in different browsers (Safari, Chrome, Firefox, Opera and Microsoft Edge) and in different devices (Mac Pro, Macbook Pro, Windows PC, Iphone 7 Plus, Xiaomi Redmi Note 8 Pro, Huawei, Ipad Mini and Samsung) to ensure it works in all platforms. During the testing phase I realized that using the browser from Xiaomi the collapsed navbar does not show the 4 navigational options, only the last two (The Center and The South). I also noticed that in every mobile device that is not a product of Apple, opening the website directly from the Facebook Messenger causes an error where the map is not rendered at all. Unfortunately, I could not solve any of these problems since the first one only occurs on Xiaomi browsers and I can’t understand what causes it and the second one seems to be caused by Facebook itself that does not recognize the OpenStreetMap URL.
 
