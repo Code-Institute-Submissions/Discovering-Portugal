@@ -62,7 +62,7 @@ For now, there are no plans to implement any future features.
 
 ## Testing
 
-I used W3C Validation Service for both HTML and CSS validation.
+I used W3C Validation Service for both HTML and CSS validation. JSHint was used for JavaScript validation.
 
 ### Client testing
 
